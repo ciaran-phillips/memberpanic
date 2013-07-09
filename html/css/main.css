@@ -1,0 +1,28 @@
+body {
+    font-family: Arial;
+    background-color:#101010;
+}
+
+#title {
+    color: red;
+    font-size:40px;
+    margin-left:20px;
+}
+#slogan{
+    font-size:26px;
+    color:white;
+}
+
+#index_wrapper {
+    background-image:none!important;
+    background-color:#101010!important;
+}
+
+#timewrapper {
+    float:right;
+    background-color:#828282 ;
+}
+
+#income_graph {
+    margin: 20px;
+}
