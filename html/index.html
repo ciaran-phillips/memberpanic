@@ -82,12 +82,12 @@
             $(document).ready(function() {
                  
                 
-                
+                draw_line();
                 $.getJSON("http://192.168.1.16:8080/status.json", function(jsondata) {
     	            $.each(jsondata.finances.months, function(i, value) {
-                       //data.labels.push(value.month);
-                       //data.datasets[0].data.push(value.membership);
-                        //data.datasets[1].data.push(value.running);
+                       data.labels.push(value.month);
+                       data.datasets[0].data.push(value.membership);
+                       data.datasets[1].data.push(value.running);
                         
 		            });
                     draw_line();
