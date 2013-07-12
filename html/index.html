@@ -100,34 +100,50 @@
     
     <body>
         <div data-role="page" id="index_wrapper">
-            <div id="menu-bar">
-                <h1 id="title">091 Labs <span id="slogan">- Memberpanic</span></h1>
-            </div>
-            
-            <div id="timeweather">
-                <div id=time>   
-                    <div id="clockbox"><!--time inserted here --> </div>
+            <div id="inner">
+                <div id="menu-bar">
+                    <h1 id="title">091 Labs <span id="slogan">- Memberpanic</span></h1>
+                    <div class="widget">
+                        <div id="timeweather">
+                            <div id=time>   
+                                <div id="clockbox"><!--time inserted here --> </div>
+                            </div>
+                           <!-- Docs at http://simpleweatherjs.com --> 
+                           <div id="weather">
+                               <!-- weather inserted here -->
+                           </div>
+                        </div><!-- /timeweather -->
+                    </div>
+                    <div class="clearing"></div>
                 </div>
-               <!-- Docs at http://simpleweatherjs.com --> 
-               <div id="weather">
-                   <!-- weather inserted here -->
-               </div>
-            </div><!-- /timeweather -->
-            <div id="graphs">
                 
+                <div class="widget">
+                    <div id="graphs">
+                        
+                        
+                        <canvas width="600" height="300" id="income_graph">
+                        </canvas>
+                        
+                    </div>
+                </div>
                 
-                <canvas width="800" height="400" id="income_graph">
-                </canvas>
-                <canvas width="400" height="400" id="income_pie">
-                </canvas>
-                <canvas width="400" height="400" id="expenditure_pie">
-                </canvas>
+                <div class="widget">
+                    <canvas width="200" height="200" id="income_pie">
+                    </canvas>
+                    <canvas width="200" height="200" id="expenditure_pie">
+                    </canvas>
+                
+                </div>
+                <div class="clearing"></div>
             </div>
             
+            
+        
             <div data-role="page" id="page2">
                 
-                <h2>THis is our second page!</h2>
+                <h2>This is our second page!</h2>
             </div>
+            
         </div>
     </body>
 </html>

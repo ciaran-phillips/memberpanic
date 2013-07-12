@@ -7,6 +7,8 @@ h1 {
     background-image:url("../img/banner.png");
     background-repeat:no-repeat;
     height:100px;
+    width:400px;
+    float:left;
 }
 #title {
     color: red;
@@ -29,4 +31,27 @@ h1 {
 
 #income_graph {
     margin: 20px;
+}
+#inner {
+    display:block;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.menu-bar {
+    padding-top:20px;
+}
+.widget {
+    background-color:#202020;
+    border:1px solid #888;
+    float:left;
+    margin:20px;
+    padding:20px;
+    border-radius:4px;
+}
+#menu-bar .widget {
+    float:right;
+}
+.clearing {
+    clear:both;
 }
