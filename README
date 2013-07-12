@@ -4,4 +4,12 @@
  |_|  |_\___|_|_|_|_.__/\___|_| |_| \__,_|_||_|_\__|
                                                     
 
-You can view the project (http://ciaran-phillips.github.io/memberpanic/memberpanic.html)[here]
+
+This project is for a status board for 091 Labs like the Panic Status Boards (http://panic.com/statusboard/).
+
+091 Labs is the Galway (Ireland) makerspace, and is one of the largest makerspaces in the country.
+
+You can view the current version of the project  (http://ciaran-phillips.github.io/memberpanic/memberpanic.html)[here]*
+
+*This only contains dummy data, and will not necessarily be updated every time the project is added to, only when we bother to add a new version to our github-pages branch
+
